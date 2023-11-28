@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-woosmap",
+  "version": "1.0.0",
+  "description": "Module for Nuxt.js to integrate Woosmap",
+  "repository": "Achraf931/nuxt-woosmap",
+  "author": "Achraf931",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard-version": "latest",
+    "nuxt-edge": "latest"
+  },
+  "keywords": [
+    "nuxt",
+    "woosmap"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
