@@ -1,6 +1,6 @@
 {
   "name": "nuxt-woosmap",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Module for Nuxt.js to integrate Woosmap",
   "repository": "Achraf931/nuxt-woosmap",
   "author": "Achraf931",
@@ -9,14 +9,16 @@
   "files": [
     "lib"
   ],
-  "main": "lib/module.js",
+  "main": "lib/woosmap/module.js",
   "scripts": {
     "release": "standard-version && git push --follow-tags && npm publish"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@nuxt/kit": "^3.8.2"
+  },
   "devDependencies": {
-    "standard-version": "latest",
-    "nuxt-edge": "latest"
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
   },
   "keywords": [
     "nuxt",
