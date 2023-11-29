@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     async initWoosmap () {
-      await this.$loadWoosmapSDK()
+      await this.$loadWoosmapSDK(this.options.apiKey)
       this.map = new woosmap.map.Map(this.$refs.woosmapContainer, this.options)
     }
   }
