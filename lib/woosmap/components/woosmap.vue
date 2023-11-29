@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'Woosmap',
+  name: 'woosmap',
   props: {
     options: {
       type: Object,
